@@ -14,18 +14,8 @@ body {
   font-size: 1.6rem;
 }
 
-.headerContainer {
-  background-color: #ed4a44;
-  height: 100px;
-  font-size: 2rem;
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  align-items: center;
-  justify-content: center;
-}
-
-.logoWrapper {
-  margin-left: 20%;
+.mainContainer {
+  margin: 24px;
 }
 
 .logoImg {
@@ -33,94 +23,52 @@ body {
   max-width: 60px;
 }
 
-.headerNav {
-  margin: auto 0 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .search {
-  width: 400px;
+  width: 100%;
 }
 
-.search input {
-  background-color: #f1faee;
+.navContainer .nav-item .navlinkItem{
+ color: black;
+}
+
+.navContainer .nav-item .navlinkItem:hover{
+  color: #f1faee;
+ }
+
+.navSearch {
   width: 100%;
-  padding: 3px 2px;
-  outline: none;
+  background-color: #f1faee;
+}
+
+.searchButton {
+  background-color: #a8dadc;
+  color: black;
   border: none;
-  height: 20px;
-  font-size: small;
-  font-family: "saira",sans-serif;
+}
+
+.searchButton:hover {
+  background-color: #a8dadc;
+  color: black;
 }
 
 .navContainer {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.menuContainer {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  position: relative;
-  justify-content: center;
-  text-indent: 10px;
-  list-style: none;
-  vertical-align: middle;
-}
-
-.navItem {
-  display: inline-block;
-  justify-content: center;
-  position: relative;
-}
-
-.navItem a,
-.navItem li,
-.footerItem a,
-.footerCopyright {
-  color: #f1faee;
-  text-decoration: none;
-  transition: 0.3s all;
-}
-
-.navItem a:hover,
-.footerItem a:hover,
-.footerCopyright:hover {
-  color: black;
-  transform: scale(0.5);
-}
-
-.dropdown {
-  display: none;
-  position: absolute;
-}
-
-.subNavItem {
-  display: block;
   background-color: #ed4a44;
-  text-align: left;
-  cursor: pointer;
-  transition: 0.3s all;
+  color: #ed4a44;
 }
 
-.subNavItem:hover {
-  color: #000000;
+.navDropdown {
   background-color: #a8dadc;
+  padding: 0;
 }
 
-.menuContainer .navItem:hover .dropdown {
-  display: block;
+.navbarItems {
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
 }
 
 .socialMedia {
-  display: flex;
-  justify-content: flex-end;
-  gap: 10px;
-  margin-right: 20px;
+  display: none;
 }
 
 .socialMediaImg {
@@ -134,13 +82,9 @@ body {
   filter: invert(1);
 }
 
-.mainContainer{
-  margin: 24px;
-}
-
 .bannerWrapper {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 89.41px);
   min-height: 500px;
   display: block;
   background-repeat: no-repeat;
@@ -209,11 +153,10 @@ p {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin:24px 0;
+  margin: 24px 0;
 }
 
-
-.recipePictures{
+.recipePictures {
   display: flex;
 }
 
@@ -227,40 +170,6 @@ p {
 
 .recipeVideo {
   width: 576px;
-}
-
-.mainProduct {
-  margin: auto;
-  width: 80%;
-  height: 20%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-
-}
-
-.sectionProductsOne {
-  display: grid;
-  grid-template-columns: 2fr 3fr;
-  gap: 20px;
-  text-align: center;
-  width: 80%;
-  margin: 80px auto;
-}
-
-.sectionProductsTwo {
-  grid-template-columns: 3fr 2fr;
-}
-
-.mainImg {
-  width: 80%;
-  display: block;
-}
-
-.foodImg {
-  width: 100%;
-  height: 100%;
 }
 
 .recipes {
@@ -298,7 +207,7 @@ p {
 }
 
 footer {
-  background-color:#ed4a44 ;
+  background-color: #ed4a44;
   margin-top: auto;
 }
 
@@ -307,30 +216,39 @@ footer p {
   padding: 20px;
 }
 
-@media screen and (max-width: 768px) {
-  
-  .search{
-   padding-bottom: 20px;
-  }
-
-
-  .search input{
-    height: 30px;
-    
-  }
-
-  .navContainer{
-    display: none;
-
-  }
-
-  .mainProduct{
-    width: 100%;
-  }
-
-  .sectionProductsOne{
-    width: 100%;
-  }
-
+.footerItem a,
+.footerCopyright {
+  color: #f1faee;
+  text-decoration: none;
+  transition: 0.3s all;
 }
 
+.footerItem a:hover,
+.footerCopyright:hover {
+  color: black;
+  transform: scale(0.5);
+}
+
+@media screen and (min-width: 768px) {
+  .search {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .search {
+    max-width: 380px;
+  }
+
+  .socialMedia {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-right: 20px;
+  }
+
+  .navDropdown a:hover {
+    background-color: #f1faee;
+    transition: 0.8s;
+  }
+}
