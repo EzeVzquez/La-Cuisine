@@ -79,11 +79,11 @@
   </header>
   <main>
     <h1>Comida</h1>
-    <div class="bannerWrapper"></div>
+    <div class="bannerWrapper banner-wrapper"></div>
     <!--Un producto que destaque, sera parecido a lo otros pero este tendra un gif o video y sera mas grande-->
-    <div class="mainProduct">
-      <h2>Producto destacado</h2>
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="mainProduct main-product">
+      <h2 class="main-product__title">Producto destacado</h2>
+      <div class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="multimedia/imagenes/imagen_carousel_1.jpg" class="d-block w-100" alt="...">
@@ -111,44 +111,46 @@
       </p>
     </div>
     <!--Aca van a empezar los otros productos o comidas siempre teniendo uno mas grande y al lado uno mas chico-->
-    <!--Primera seccion de los productos o comidas-->
-    <section class="productsWrapperIndex">
-      <article class="productsWrapperCard">
-        <h2 class="productsWrapperTitle">Producto chico uno</h2>
-        <picture class="productsImgWrapper">
-          <img class="foodImg" src="multimedia/imagenes/imagen_uno.jpg" alt="palta" />
+    <!--Card one-->
+    <section class="productsWrapperIndex products">
+      <article class="productsWrapperCard  products__card">
+        <h2 class="productsWrapperTitle products__title">Producto chico uno</h2>
+        <picture class="productsImgWrapper  products__picture">
+          <img class="foodImg products__img" src="multimedia/imagenes/imagen_uno.jpg" alt="palta" />
         </picture>
-        <p class="productsWrapperDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <p class="productsWrapperDescription products products__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
       </article>
-      <article class="productsWrapperCard">
-        <h2 class="productsWrapperTitle">Producto grande uno</h2>
-        <picture class="productsImgWrapper">
-          <img class="foodImg" src="multimedia/imagenes/imagen_dos.jpg" alt="papas" />
+      <!--Card two-->
+      <article class="productsWrapperCard products__card">
+        <h2 class="productsWrapperTitle products__title">Producto grande uno</h2>
+        <picture class="productsImgWrapper products__picture">
+          <img class="foodImg products__img" src="multimedia/imagenes/imagen_dos.jpg" alt="papas"/>
         </picture>
-        <p class="productsWrapperDescription">
+        <p class="productsWrapperDescription products__description">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae,
           saepe!
         </p>
       </article>
     </section>
-    <!--Segunda seccion de los productos o comidas-->
-    <section class="productsWrapperIndex productsWrapperAlternative">
-      <article class="productsWrapperCard">
-        <h2 class="productsWrapperTitle">Producto grande dos</h2>
-        <picture class="productsImgWrapper">
-          <img class="foodImg" src="multimedia/imagenes/imagen_tres.jpg" alt="salsa" />
+    <!--Card alternative one-->
+    <section class="productsWrapperIndex productsWrapperAlternative products products--alternative">
+      <article class="productsWrapperCard products__card">
+        <h2 class="productsWrapperTitle products__title">Producto grande dos</h2>
+        <picture class="productsImgWrapper products__picture">
+          <img class="foodImg products__img" src="multimedia/imagenes/imagen_tres.jpg" alt="salsa" />
         </picture>
-        <p class="productsWrapperDescription">
+        <p class="productsWrapperDescription products__description">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est,
           consequuntur?
         </p>
       </article>
-      <article class="productsWrapperCard">
-        <h2 class="productsWrapperTitle">producto chico dos</h2>
-        <picture class="productsImgWrapper">
-          <img class="foodImg" src="multimedia/imagenes/imagen_cuatro.jpg" alt="aderezo" />
+      <!--Card alternative two-->
+      <article class="productsWrapperCard products__card">
+        <h2 class="productsWrapperTitle products__title">producto chico dos</h2>
+        <picture class="productsImgWrapper products__picture">
+          <img class="foodImg products__img" src="multimedia/imagenes/imagen_cuatro.jpg" alt="aderezo" />
         </picture>
-        <p class="productsWrapperDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="productsWrapperDescription products__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </article>
     </section>
     </div>
