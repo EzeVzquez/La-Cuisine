@@ -79,38 +79,38 @@
   <main class="mainContainer">
     <h1>Ayuda</h1>
     <div class="wrapper">
-      <section class="helpForm">
-        <fieldset class="formFieldset">
-          <legend>
-            <h2>Contactanos</h2>
+      <section class="helpForm form__wrapper">
+        <fieldset class="formFieldset form__fieldset">
+          <legend class="form__legend">
+            <h2 class="form__title">Contactanos</h2>
           </legend>
-          <form action="">
-            <label class="dataForm" for="nombre">Nombre
-              <input id="nombre" type="text" placeholder="Juan Carlos" name="nombre" />
+          <form class="form" action="">
+            <label class="dataForm form_label" for="nombre">Nombre
+              <input class="form__input form__input--name" id="nombre" type="text" placeholder="Juan Carlos" name="nombre" />
             </label>
-            <label class="dataForm" for="correo">Email
-              <input id="correo" type="email" placeholder="Name@example.com" name="correo" />
+            <label class="dataForm form_label" for="correo">Email
+              <input class="form__input form__input--email" id="correo" type="email" placeholder="Name@example.com" name="correo" />
             </label>
-            <select class="optionForm" name="opcion" id="opcion">
-              <option selected disabled>Selecciona una opcion</option>
-              <option value="dudas">Duda</option>
-              <option value="recetas">Recetas</option>
-              <option value="otros">Otros</option>
+            <select class="optionForm form__select-option" name="opcion" id="opcion">
+              <option class="form__option" selected disabled>Selecciona una opcion</option>
+              <option class="form__option" value="dudas">Duda</option>
+              <option class="form__option" value="recetas">Recetas</option>
+              <option class="form__option" value="otros">Otros</option>
             </select>
-            <textarea class="formTextarea" name="mensaje" id="mensaje" cols="58" rows="10"
+            <textarea class="formTextarea form__textarea" name="mensaje" id="mensaje" cols="58" rows="10"
               placeholder="Ingrese el mensaje"></textarea>
-            <label class="newsForm" for="noticias">
+            <label class="newsForm form__news" for="noticias">
               ¿Querés recibir nuevas recetas?
-              <input id="noticias" type="checkbox" value="noticias" name="noticias" />
+              <input class="form__input-checkbox" id="noticias" type="checkbox" value="noticias" name="noticias" />
             </label>
-            <input class="bottonForm" type="submit" value="Enviar" />
-            <input class="bottonForm" type="reset" value="Borrar todo" />
+            <input class="bottonForm form_botton" type="submit" value="Enviar" />
+            <input class="bottonForm form__botton" type="reset" value="Borrar todo" />
           </form>
         </fieldset>
       </section>
-      <section class="aboutUs">
-        <h2>Nosotros</h2>
-        <p class="aboutUsText">
+      <section class="aboutUs about-us__wrapper">
+        <h2 class="about-us__title">Nosotros</h2>
+        <p class="aboutUsText about-us__text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
           repudiandae esse consequatur fugit totam repellendus cupiditate,
           reprehenderit minus eligendi debitis omnis temporibus harum

@@ -18,70 +18,6 @@ body {
   margin: 24px;
 }
 
-.logoImg {
-  width: 100%;
-  max-width: 60px;
-}
-
-.search {
-  width: 100%;
-}
-
-.navContainer .nav-item .navlinkItem{
- color: black;
-}
-
-.navContainer .nav-item .navlinkItem:hover{
-  color: #f1faee;
- }
-
-.navSearch {
-  width: 100%;
-  background-color: #f1faee;
-}
-
-.searchButton {
-  background-color: #a8dadc;
-  color: black;
-  border: none;
-}
-
-.searchButton:hover {
-  background-color: #a8dadc;
-  color: black;
-}
-
-.navContainer {
-  background-color: #ed4a44;
-  color: #ed4a44;
-}
-
-.navDropdown {
-  background-color: #a8dadc;
-  padding: 0;
-}
-
-.navbarItems {
-  flex-direction: column-reverse;
-  justify-content: center;
-  align-items: center;
-}
-
-.socialMedia {
-  display: none;
-}
-
-.socialMediaImg {
-  width: 100%;
-  max-width: 30px;
-  transition: all 0.3s;
-}
-
-.socialMediaImg:hover {
-  transform: scale(1.2);
-  filter: invert(1);
-}
-
 .bannerWrapper {
   width: 100%;
   height: calc(100vh - 89.41px);
@@ -227,28 +163,4 @@ footer p {
 .footerCopyright:hover {
   color: black;
   transform: scale(0.5);
-}
-
-@media screen and (min-width: 768px) {
-  .search {
-    max-width: 768px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .search {
-    max-width: 380px;
-  }
-
-  .socialMedia {
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-    margin-right: 20px;
-  }
-
-  .navDropdown a:hover {
-    background-color: #f1faee;
-    transition: 0.8s;
-  }
 }
