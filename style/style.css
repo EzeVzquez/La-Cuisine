@@ -122,26 +122,3 @@ p {
 .article__description {
   font-size: 2rem;
 }
-
-footer {
-  background-color: #e63946;
-  margin-top: auto;
-}
-
-footer p {
-  color: #f1faee;
-  padding: 20px;
-}
-
-.footer__list-element a,
-.footer__copyright {
-  color: #f1faee;
-  text-decoration: none;
-  transition: 0.3s all;
-}
-
-.footer__list-element a:hover,
-.footer__copyright:hover {
-  color: black;
-  transform: scale(0.5);
-}

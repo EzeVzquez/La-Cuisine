@@ -1,1 +1,17 @@
 @import "colors";
+
+footer {
+  background-color: $color-imperial-red;
+  margin-top: auto;
+}
+
+.footer__text {
+  color: $color-honeydew;
+  padding: 20px;
+}
+
+.footer__list-element .footer__link,
+.footer__copyright {
+  color: $color-honeydew;
+  text-decoration: none;
+}

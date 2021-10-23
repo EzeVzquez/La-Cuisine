@@ -1,0 +1,50 @@
+@import "colors";
+
+@media screen and (min-width: 768px) {
+  .search {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .nav__dropdown-item:hover {
+    background-color: $color-honeydew;
+    transition: 0.8s;
+  }
+
+  .search {
+    max-width: 380px;
+  }
+
+  .social-bar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-right: 20px;
+  }
+
+  .social__img {
+    width: 100%;
+    max-width: 30px;
+    transition: all 0.3s;
+  }
+
+  .social__img:hover {
+    transform: scale(1.2);
+    filter: invert(1);
+  }
+
+  .nav-container .nav__item .nav__item-link:hover {
+    color: $color-honeydew;
+  }
+
+  .footer__list-element .footer__link,
+  .footer__copyright {
+    transition: 0.3s all;
+  }
+
+  .footer__list-element .footer__link:hover,
+  .footer__copyright:hover {
+    color: $color-black;
+  }
+}
