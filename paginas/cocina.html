@@ -11,7 +11,7 @@
     integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira&display=swap" />
   <link rel="stylesheet" href="../style/style.css" />
-  <link rel="stylesheet" href="../style/styles-replacement.css">
+  <link rel="stylesheet" href="../style/styles-replacement.css" />
 </head>
 
 <body>
@@ -20,7 +20,7 @@
     <nav class="navbar navbar-expand-lg navbar-light navContainer nav-container">
       <div class="container-fluid">
         <picture class="nav__logo">
-          <img class="logoImg nav__img-logo" src="../multimedia/imagenes/logo.png" alt="logo">
+          <img class="logoImg nav__img-logo" src="../multimedia/imagenes/logo.png" alt="logo" />
         </picture>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +46,9 @@
                 <li>
                   <a class="dropdown-item navDropdownItem nav__dropdown-item" href="cocina.html">Cocina</a>
                 </li>
-                <li><a class="dropdown-item navDropdownItem nav__dropdown-item" href="../index.html">Panaderia</a></li>
+                <li>
+                  <a class="dropdown-item navDropdownItem nav__dropdown-item" href="../index.html">Panaderia</a>
+                </li>
               </ul>
             </li>
             <li class="nav-item nav__item">
@@ -54,41 +56,45 @@
             </li>
           </ul>
           <form class="d-flex search">
-            <input class="form-control me-2 navSearch search__input" type="search" placeholder="buscador" aria-label="Search">
-            <button class="btn btn-outline-success searchButton search__button" type="submit">Buscar</button>
+            <input class="form-control me-2 navSearch search__input" type="search" placeholder="buscador"
+              aria-label="Search" />
+            <button class="btn btn-outline-success searchButton search__button" type="submit">
+              Buscar
+            </button>
           </form>
         </div>
       </div>
       <div class="socialMedia social-bar">
         <picture class="social__picture">
-          <a class="imgWrapper social__img-wrapper" href="https://www.instagram.com/ezevzquez/"><img class="socialMediaImg social__img"
-              src="../multimedia/imagenes/instagram.png" alt="instagram" /></a>
+          <a class="imgWrapper social__img-wrapper" href="https://www.instagram.com/ezevzquez/"><img
+              class="socialMediaImg social__img" src="../multimedia/imagenes/instagram.png" alt="instagram" /></a>
         </picture>
         <picture class="social__picture">
-          <a class="social__img-wrapper" href=""><img class="socialMediaImg social__img" src="../multimedia/imagenes/facebook.png" alt="facebook" /></a>
+          <a class="social__img-wrapper" href=""><img class="socialMediaImg social__img"
+              src="../multimedia/imagenes/facebook.png" alt="facebook" /></a>
         </picture>
         <picture class="social__picture">
-          <a class="social__img-wrapper" href="https://www.linkedin.com/in/ezevzquez/"><img class="socialMediaImg social__img"
-              src="../multimedia/imagenes/linkedin.png" alt="linkedin" /></a>
+          <a class="social__img-wrapper" href="https://www.linkedin.com/in/ezevzquez/"><img
+              class="socialMediaImg social__img" src="../multimedia/imagenes/linkedin.png" alt="linkedin" /></a>
         </picture>
       </div>
     </nav>
   </header>
   <main>
     <h1>Cocina</h1>
-    <section class="recipe">
-      <article>
-        <h2>Risotto</h2>
-        <div class="recipePictures">
-          <picture>
-            <img class="recipeImg" src="../multimedia/imagenes/imagen_test_uno.jpg" alt="risotto" />
+    <section class="food-recipe">
+      <article class="food-recipe__article">
+        <h2 class="food-recipe__title">Risotto</h2>
+        <div class="food-recipe__picture-wrapper">
+          <picture class="food-recipe__picture">
+            <img class="food-recipe__img" src="../multimedia/imagenes/imagen_test_uno.jpg" alt="risotto" />
           </picture>
-          <div>
-            <video class="recipeVideo" src="../multimedia/videos/video_test_uno.mp4" control autoplay loop
+          <div class="food-recipe__video-wrapper">
+            <video class="food-recipe__video" src="../multimedia/videos/video_test_uno.mp4" control autoplay loop
               muted></video>
           </div>
         </div>
-        <p>
+        <p class="food-recipe__description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Necessitatibus molestias ullam quos possimus nobis amet?
         </p>
@@ -102,8 +108,8 @@
       <div class="row">
         <!--Grid column-->
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-          <h3>texto del footer</h3>
-          <p>
+          <h3 class="footer__title">texto del footer</h3>
+          <p class="footer__text">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
             atque ea quis molestias. Fugiat pariatur maxime quis culpa
             corporis vitae repudiandae aliquam voluptatem veniam, est atque
@@ -113,42 +119,42 @@
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h3>Titulo 1</h3>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 col-sm-6">
+          <h3 class="footer__title">Titulo 1</h3>
 
-          <ul class="list-unstyled mb-0">
-            <li class="footer__list-element">
-              <a href="#!">Link 1</a>
+          <ul class="list-unstyled footer__list">
+            <li class="footer__list-element ">
+              <a class="footer__link" href="#!">Link 1</a>
             </li>
-            <li class="footer__list-element">
-              <a href="#!">Link 2</a>
+            <li class="footer__list-element ">
+              <a class="footer__link" href="#!">Link 2</a>
             </li>
-            <li class="footer__list-element">
-              <a href="#!">Link 3</a>
+            <li class="footer__list-element ">
+              <a class="footer__link" href="#!">Link 3</a>
             </li>
-            <li class="footer__list-element">
-              <a href="#!">Link 4</a>
+            <li class="footer__list-element ">
+              <a class="footer__link" href="#!">Link 4</a>
             </li>
           </ul>
         </div>
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h3>Titulo 2</h3>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 col-sm-6">
+          <h3 class="footer__title">Titulo 2</h3>
 
-          <ul class="list-unstyled">
-            <li class="footer__list-element">
-              <a href="#!">Link 1</a>
+          <ul class="list-unstyled footer__list ">
+            <li class="footer__list-element ">
+              <a class="footer__link" href="#!">Link 1</a>
             </li>
-            <li class="footer__list-element">
-              <a href="#!">Link 2</a>
+            <li class="footer__list-element ">
+              <a class="footer__link" href="#!">Link 2</a>
             </li>
-            <li class="footer__list-element">
-              <a href="#!">Link 3</a>
+            <li class="footer__list-element ">
+              <a class="footer__link" href="#!">Link 3</a>
             </li>
-            <li class="footer__list-element">
-              <a href="#!">Link 4</a>
+            <li class="footer__list-element ">
+              <a class="footer__link" href="#!">Link 4</a>
             </li>
           </ul>
         </div>
@@ -159,18 +165,18 @@
     <!-- Grid container -->
 
     <!-- Copyright -->
-    <div class="text-center p-3">
+    <div class="text-center p-3 footer__wrapper-copyright">
       © 2021 Copyright:
       <a class="footer__copyright" href="../index.html">link de la Pagina</a>
     </div>
   </footer>
   <!-- BOOTSTRAP -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-    crossorigin="anonymous"></script>
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js"
-    integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u"
-    crossorigin="anonymous"></script>
+    integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
