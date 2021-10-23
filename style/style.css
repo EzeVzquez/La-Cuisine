@@ -18,7 +18,7 @@ body {
   margin: 24px;
 }
 
-.bannerWrapper {
+.banner-wrapper {
   width: 100%;
   height: calc(100vh - 89.41px);
   min-height: 500px;
@@ -41,43 +41,43 @@ h1 {
   display: flex;
 }
 
-.helpForm {
+.form__wrapper {
   width: 50%;
 }
 
-.aboutUs {
+.about-us__wrapper{
   width: 40%;
 }
 
-.aboutUsText {
+.about-us__text {
   font-size: larger;
 }
 
-.formFieldset {
+.form__fieldset {
   padding: 0 10px;
   margin: 0 50px;
 }
 
-.dataForm {
+.form_label {
   margin: 0 5px;
   display: inline;
 }
 
-.optionForm {
+.form__select-option {
   margin: 5px 0;
   display: block;
 }
 
-.formTextarea {
+.form__textarea {
   display: block;
   resize: none;
 }
 
-.newsForm {
+.form__news {
   display: block;
 }
 
-.bottonForm {
+.form__button {
   display: inline;
 }
 
@@ -143,7 +143,7 @@ p {
 }
 
 footer {
-  background-color: #ed4a44;
+  background-color: #e63946;
   margin-top: auto;
 }
 
@@ -152,15 +152,15 @@ footer p {
   padding: 20px;
 }
 
-.footerItem a,
-.footerCopyright {
+.footer__list-element a,
+.footer__copyright {
   color: #f1faee;
   text-decoration: none;
   transition: 0.3s all;
 }
 
-.footerItem a:hover,
-.footerCopyright:hover {
+.footer__list-element a:hover,
+.footer__copyright:hover {
   color: black;
   transform: scale(0.5);
 }

@@ -1,4 +1,4 @@
-.mainProduct {
+.main-product {
   display: flex;
   flex-direction: column;
   width: 95%;
@@ -8,7 +8,7 @@
   font-size: 0.9em;
 }
 
-.productsWrapperIndex {
+.product {
   display: flex;
   flex-direction: column;
   width: 95%;
@@ -17,37 +17,37 @@
   font-size: 0.9em;
 }
 
-.productsImgWrapper {
+.product__picture {
   display: inline-block;
   margin: 10px;
 }
 
-.productsWrapperCard {
+.product__card {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   border-radius: 4px;
   margin-bottom: 20px;
 }
 
-.foodImg {
+.product__img {
   object-fit: cover;
   min-height: 350px;
   width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-  .mainProduct {
+  .main-product {
     width: 93%;
     font-size: 0.95em;
   }
 
-  .productsWrapperIndex {
+  .product {
     width: 93%;
     font-size: 0.95em;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .mainProduct {
+  .main-product {
     margin: 30px auto;
     width: 90%;
     display: flex;
@@ -57,11 +57,11 @@
     font-size: 1em;
   }
 
-  .productsWrapperTitle{
+  .product__title{
     padding-top: 1em;
   }
 
-  .productsWrapperIndex {
+  .product {
     display: grid;
     grid-template-columns: 2fr 3fr;
     gap: 10px;
@@ -71,11 +71,11 @@
     font-size: 0.8em;
   }
 
-  .productsWrapperAlternative {
+  .product--alternative {
     grid-template-columns: 3fr 2fr;
   }
 
-  .foodImg {
+  .product__img {
     height: 100%;
     max-height: 300px;
   }
@@ -83,7 +83,7 @@
 
 @media screen and (min-width: 1440px) {
 
-  .foodImg{
+  .product__img{
     max-height: 450px;
   }
 }
