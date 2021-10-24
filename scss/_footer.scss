@@ -14,4 +14,7 @@ footer {
 .footer__copyright {
   color: $color-honeydew;
   text-decoration: none;
+  &:focus{
+    color: $color-black;
+  }
 }
