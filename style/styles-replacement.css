@@ -67,9 +67,9 @@ footer {
 .footer__copyright {
   color: #f1faee;
   text-decoration: none; }
-  .footer__list-element .footer__link:focus,
-  .footer__copyright:focus {
-    color: #000; }
+
+.footer__copyright:link {
+  color: #000; }
 
 @media screen and (min-width: 768px) {
   .search {
