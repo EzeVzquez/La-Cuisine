@@ -21,69 +21,77 @@
   <!--En el header ademas va a ir un buscador, el logo y las redes sociales-->
   <header>
     <!--Barra de navegacion-->
-    <nav class="navbar navbar-expand-lg navbar-light navContainer nav-container">
+    <nav class="navbar navbar-expand-lg navbar-light nav-container">
       <div class="container-fluid">
+        <!-- logo -->
         <picture class="nav__logo">
-          <img class="logoImg nav__img-logo" src="multimedia/imagenes/logo.png" alt="logo">
+          <img class="nav__img-logo" src="multimedia/imagenes/logo.png" alt="logo">
         </picture>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse navbarItems nav__items-wrapper" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse nav__items-wrapper" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item nav__item">
-              <a class="nav-link navlinkItem nav__item-link" aria-current="page" href="index.html">Inicio</a>
+              <a class="nav-link nav__item-link" aria-current="page" href="index.html">Inicio</a>
             </li>
             <li class="nav-item nav__item">
-              <a class="nav-link navlinkItem nav__item-link" href="paginas/productos.html">Productos</a>
+              <a class="nav-link nav__item-link" href="paginas/productos.html">Productos</a>
             </li>
             <li class="nav-item nav__item">
-              <a class="nav-link navlinkItem nav__item-link" href="paginas/recetas.html">Recetas</a>
+              <a class="nav-link nav__item-link" href="paginas/recetas.html">Recetas</a>
             </li>
+            <!-- nav dropdown -->
             <li class="nav-item dropdown nav__item">
-              <a class="nav-link navlinkItem nav__item-link dropdown-toggle" href="paginas/recetas.html"
+              <a class="nav-link nav__item-link dropdown-toggle" href="paginas/recetas.html"
                 id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Categorias
               </a>
-              <ul class="dropdown-menu navDropdown nav__dropdown" aria-labelledby="navbarDropdown">
+              <ul class="dropdown-menu  nav__dropdown" aria-labelledby="navbarDropdown">
                 <li>
-                  <a class="dropdown-item navDropdownItem nav__dropdown-item" href="paginas/cocina.html">Cocina</a>
+                  <a class="dropdown-item nav__dropdown-item" href="paginas/cocina.html">Cocina</a>
                 </li>
-                <li><a class="dropdown-item navDropdownItem nav__dropdown-item" href="#">Panaderia</a></li>
+                <li><a class="dropdown-item nav__dropdown-item" href="#">Panaderia</a></li>
               </ul>
             </li>
             <li class="nav-item nav__item">
-              <a class="nav-link navlinkItem nav__item-link" href="paginas/ayuda.html">Ayuda</a>
+              <a class="nav-link nav__item-link" href="paginas/ayuda.html">Ayuda</a>
             </li>
           </ul>
+          <!-- search -->
           <form class="d-flex search">
-            <input class="form-control me-2 navSearch search__input" type="search" placeholder="buscador"
+            <input class="form-control me-2 search__input" type="search" placeholder="buscador"
               aria-label="Search">
-            <button class="btn btn-outline-success searchButton search__button" type="submit">Buscar</button>
+            <button class="btn btn-outline-success search__button" type="submit">Buscar</button>
           </form>
         </div>
       </div>
-      <div class="socialMedia social-bar">
+      <!-- social media -->
+      <div class="social-bar">
+        <!-- instagram -->
         <picture class="social__picture">
-          <a class="imgWrapper social__img-wrapper" href="https://www.instagram.com/ezevzquez/"><img
-              class="socialMediaImg social__img" src="multimedia/imagenes/instagram.png" alt="instagram" /></a>
+          <a class="social__img-wrapper" href="https://www.instagram.com/ezevzquez/"><img
+              class="social__img" src="multimedia/imagenes/instagram.png" alt="instagram" /></a>
         </picture>
+        <!-- facebook -->
         <picture class="social__picture">
-          <a class="social__img-wrapper" href=""><img class="socialMediaImg social__img"
+          <a class="social__img-wrapper" href=""><img class="social__img"
               src="multimedia/imagenes/facebook.png" alt="facebook" /></a>
         </picture>
+        <!-- linkedin -->
         <picture class="social__picture">
           <a class="social__img-wrapper" href="https://www.linkedin.com/in/ezevzquez/"><img
-              class="socialMediaImg social__img" src="multimedia/imagenes/linkedin.png" alt="linkedin" /></a>
+              class="social__img" src="multimedia/imagenes/linkedin.png" alt="linkedin" /></a>
         </picture>
       </div>
     </nav>
   </header>
   <main>
     <h1>Comida</h1>
+    <!-- banner -->
     <div class="banner-wrapper"></div>
-    <!--Un producto que destaque, sera parecido a lo otros pero este tendra un gif o video y sera mas grande-->
+    <!--main product-->
     <div class="main-product">
       <h2 class="main-product__title">Producto destacado</h2>
       <div class="carousel slide" data-bs-ride="carousel">
