@@ -1,5 +1,8 @@
 @import "colors";
 
+
+
+
 .main-product {
   display: flex;
   flex-direction: column;
@@ -19,11 +22,11 @@
   font-size: 0.9em;
 }
 
-.product__link{
+.product__link {
   text-decoration: none;
-   .product__title{
-     color:$color-black;
-   }
+  .product__title {
+    color: $color-black;
+  }
 }
 
 .product__card {

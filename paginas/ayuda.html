@@ -39,8 +39,8 @@
             </li>
             <!-- nav dropdown -->
             <li class="nav-item dropdown nav__item">
-              <a class="nav-link nav__item-link dropdown-toggle" href="recetas.html" id="navbarDropdown"
-                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link nav__item-link dropdown-toggle" href="recetas.html" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
                 Categorias
               </a>
               <ul class="dropdown-menu nav__dropdown" aria-labelledby="navbarDropdown">
@@ -58,8 +58,7 @@
           </ul>
           <!-- search -->
           <form class="d-flex search">
-            <input class="form-control me-2 search__input" type="search" placeholder="buscador"
-              aria-label="Search" />
+            <input class="form-control me-2 search__input" type="search" placeholder="buscador" aria-label="Search" />
             <button class="btn btn-outline-success search__button" type="submit">
               Buscar
             </button>
@@ -70,18 +69,21 @@
       <div class="social-bar">
         <!-- instagram -->
         <picture class="social__picture">
-          <a class="social__img-wrapper" href="https://www.instagram.com/ezevzquez/"><img
-              class="social__img" src="../multimedia/imagenes/instagram.png" alt="instagram" /></a>
+          <a class="social__img-wrapper" href="https://www.instagram.com/ezevzquez/">
+            <i class="fab fa-instagram-square social__img social__img--instagram"></i>
+          </a>
         </picture>
         <!-- facebook -->
         <picture class="social__picture">
-          <a class="social__img-wrapper" href=""><img class="social__img"
-              src="../multimedia/imagenes/facebook.png" alt="facebook" /></a>
+          <a class="social__img-wrapper" href="">
+            <i class="fab fa-facebook-square social__img social__img--facebook"></i>
+          </a>
         </picture>
         <!-- linkedin -->
         <picture class="social__picture">
-          <a class="social__img-wrapper" href="https://www.linkedin.com/in/ezevzquez/"><img
-              class="social__img" src="../multimedia/imagenes/linkedin.png" alt="linkedin" /></a>
+          <a class="social__img-wrapper" href="https://www.linkedin.com/in/ezevzquez/">
+            <i class="fab fa-linkedin social__img social__img--linkedin"></i>
+          </a>
         </picture>
       </div>
     </nav>
@@ -118,8 +120,8 @@
               ¿Querés recibir nuevas recetas?
               <input class="form__input-checkbox" id="noticias" type="checkbox" value="noticias" name="noticias" />
             </label>
-            <input class="form__button" type="submit" value="Enviar" />
-            <input class="form__button" type="reset" value="Borrar todo" />
+            <input class="btn form__button form__button--submit" type="submit" value="Enviar" />
+            <input class="btn form__button form__button--reset" type="reset" value="Borrar todo" />
           </form>
         </fieldset>
       </section>

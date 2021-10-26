@@ -57,17 +57,6 @@
     margin-right: 20px;
   }
 
-  .social__img {
-    width: 100%;
-    max-width: 30px;
-    transition: all 0.3s;
-  }
-
-  .social__img:hover {
-    transform: scale(1.2);
-    filter: invert(1);
-  }
-
   .nav-container .nav__item .nav__item-link:hover {
     color: $color-honeydew;
   }

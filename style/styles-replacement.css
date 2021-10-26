@@ -17,6 +17,15 @@ h1 {
 p {
   color: #929292; }
 
+.social__img--instagram:hover {
+  color: #ffadda; }
+
+.social__img--facebook:hover {
+  color: #1877f2; }
+
+.social__img--linkedin:hover {
+  color: #0a66c2; }
+
 .nav-container {
   background-color: #e63946;
   color: #e63946; }
@@ -60,6 +69,14 @@ p {
 
 .social-bar {
   display: none; }
+
+.social__img {
+  font-size: 2em;
+  transition: all 0.3s;
+  color: black; }
+
+.social__img:hover {
+  transform: scale(1.2); }
 
 .banner-wrapper {
   width: 100%;
@@ -210,6 +227,16 @@ p {
 
 .form__button {
   margin: 5px; }
+  .form__button--submit {
+    background-color: #a8dadc;
+    color: #f1faee; }
+    .form__button--submit:hover {
+      color: #f1faee;
+      background-color: #71c3c6;
+      box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.6);
+      transition: .2s ease-in-out; }
+  .form__button--reset:hover {
+    border: 1px solid #000; }
 
 .about-us__wrapper {
   padding: 1em; }
@@ -264,13 +291,6 @@ footer {
     justify-content: flex-end;
     gap: 10px;
     margin-right: 20px; }
-  .social__img {
-    width: 100%;
-    max-width: 30px;
-    transition: all 0.3s; }
-  .social__img:hover {
-    transform: scale(1.2);
-    filter: invert(1); }
   .nav-container .nav__item .nav__item-link:hover {
     color: #f1faee; }
   .main-product {

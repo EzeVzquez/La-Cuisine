@@ -1,5 +1,17 @@
 @import "colors";
 
+$redes: (
+  instagram: #ffadda,
+  facebook: #1877f2,
+  linkedin: #0a66c2,
+);
+
+@each $red, $color in $redes {
+  .social__img--#{$red}:hover {
+    color: $color;
+  }
+}
+
 .nav-container {
   background-color: $color-imperial-red;
   color: $color-imperial-red;
@@ -53,4 +65,14 @@
 
 .social-bar {
   display: none;
+}
+
+.social__img {
+  font-size: 2em;
+  transition: all 0.3s;
+  color: black;
+}
+
+.social__img:hover {
+  transform: scale(1.2);
 }
