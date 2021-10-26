@@ -337,6 +337,8 @@ footer {
   .form__fieldset {
     width: 100%;
     padding: 0; }
+  .form__container {
+    width: 95%; }
   .form__label {
     display: inline;
     justify-content: center; }
