@@ -338,7 +338,7 @@ footer {
     width: 100%;
     padding: 0; }
   .form__container {
-    width: 95%; }
+    width: 100%; }
   .form__label {
     display: inline;
     justify-content: center; }
@@ -348,7 +348,7 @@ footer {
   .form__news {
     display: block; }
   .about-us__wrapper {
-    width: 100%; }
+    width: 75%; }
   .footer__list-element .footer__link,
   .footer__copyright {
     transition: 0.3s all; }
