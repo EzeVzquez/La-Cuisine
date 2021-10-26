@@ -44,8 +44,8 @@
             </li>
             <!-- nav dropdown -->
             <li class="nav-item dropdown nav__item">
-              <a class="nav-link nav__item-link dropdown-toggle" href="paginas/recetas.html"
-                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link nav__item-link dropdown-toggle" href="paginas/recetas.html" id="navbarDropdown"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Categorias
               </a>
               <ul class="dropdown-menu  nav__dropdown" aria-labelledby="navbarDropdown">
@@ -61,8 +61,7 @@
           </ul>
           <!-- search -->
           <form class="d-flex search">
-            <input class="form-control me-2 search__input" type="search" placeholder="buscador"
-              aria-label="Search">
+            <input class="form-control me-2 search__input" type="search" placeholder="buscador" aria-label="Search">
             <button class="btn btn-outline-success search__button" type="submit">Buscar</button>
           </form>
         </div>
@@ -71,18 +70,18 @@
       <div class="social-bar">
         <!-- instagram -->
         <picture class="social__picture">
-          <a class="social__img-wrapper" href="https://www.instagram.com/ezevzquez/"><img
-              class="social__img" src="multimedia/imagenes/instagram.png" alt="instagram" /></a>
+          <a class="social__img-wrapper" href="https://www.instagram.com/ezevzquez/"><img class="social__img"
+              src="multimedia/imagenes/instagram.png" alt="instagram" /></a>
         </picture>
         <!-- facebook -->
         <picture class="social__picture">
-          <a class="social__img-wrapper" href=""><img class="social__img"
-              src="multimedia/imagenes/facebook.png" alt="facebook" /></a>
+          <a class="social__img-wrapper" href=""><img class="social__img" src="multimedia/imagenes/facebook.png"
+              alt="facebook" /></a>
         </picture>
         <!-- linkedin -->
         <picture class="social__picture">
-          <a class="social__img-wrapper" href="https://www.linkedin.com/in/ezevzquez/"><img
-              class="social__img" src="multimedia/imagenes/linkedin.png" alt="linkedin" /></a>
+          <a class="social__img-wrapper" href="https://www.linkedin.com/in/ezevzquez/"><img class="social__img"
+              src="multimedia/imagenes/linkedin.png" alt="linkedin" /></a>
         </picture>
       </div>
     </nav>
@@ -90,20 +89,23 @@
   <main>
     <h1>Comida</h1>
     <!-- banner -->
-    <div class="banner-wrapper"></div>
+    <div class="banner-wrapper banner-wrapper--index"></div>
     <!--main product-->
     <div class="main-product">
-      <h2 class="main-product__title">Producto destacado</h2>
+      <h2 class="main-product__title">Productos destacados</h2>
       <div class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="multimedia/imagenes/imagen_carousel_1.jpg" class="d-block w-100" alt="...">
+            <a class="main-product__link" href="paginas/recetas.html">
+              <img src="multimedia/imagenes/imagen_carousel_1.jpg" class="d-block w-100" alt="..."></a>
           </div>
           <div class="carousel-item">
-            <img src="multimedia/imagenes/imagen_carousel_2.jpg" class="d-block w-100" alt="...">
+            <a class="main-product__link" href="paginas/recetas.html">
+              <img src="multimedia/imagenes/imagen_carousel_2.jpg" class="d-block w-100" alt="..."></a>
           </div>
           <div class="carousel-item">
-            <img src="multimedia/imagenes/imagen_carousel_3.jpg" class="d-block w-100" alt="...">
+            <a class="main-product__link" href="paginas/recetas.html">
+              <img src="multimedia/imagenes/imagen_carousel_3.jpg" class="d-block w-100" alt="..."></a>
           </div>
         </div>
       </div>
@@ -116,53 +118,57 @@
                 muted
                 ></video> -->
       <p class="main-product__description">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-        magni quibusdam voluptatibus modi ex ab vel consequatur repellendus!
-        Ratione, aliquam.
+        Ensaladas-Picada-Platos livianos
       </p>
     </div>
     <!--Aca van a empezar los otros productos o comidas siempre teniendo uno mas grande y al lado uno mas chico-->
     <!--Card one-->
     <section class="product">
-      <article class="product__card">
-        <h2 class="product__title">Producto chico uno</h2>
-        <picture class="product__picture">
-          <img class="product__img" src="multimedia/imagenes/imagen_uno.jpg" alt="palta" />
-        </picture>
-        <p class="product__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-      </article>
+      <a class="product__link" href="paginas/recetas.html">
+        <article class="product__card">
+          <h2 class="product__title">Palta rellena</h2>
+          <picture class="product__picture">
+            <img class="product__img" src="multimedia/imagenes/imagen_uno.jpg" alt="palta" />
+          </picture>
+          <p class="product__description">Palta rellena con tomate y queso crema</p>
+        </article>
+      </a>
       <!--Card two-->
-      <article class="product__card">
-        <h2 class="product__title">Producto grande uno</h2>
-        <picture class="product__picture">
-          <img class="product__img" src="multimedia/imagenes/imagen_dos.jpg" alt="papas" />
-        </picture>
-        <p class="product__description">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae,
-          saepe!
-        </p>
-      </article>
+      <a class="product__link" href="paginas/recetas.html">
+        <article class="product__card">
+          <h2 class="product__title">Pollo con papas</h2>
+          <picture class="product__picture">
+            <img class="product__img" src="multimedia/imagenes/imagen_dos.jpg" alt="papas" />
+          </picture>
+          <p class="product__description">
+            Pollo al horno con papas fritas
+          </p>
+        </article>
+      </a>
     </section>
     <!--Card alternative one-->
     <section class="product product--alternative">
-      <article class="product__card">
-        <h2 class="product__title">Producto grande dos</h2>
-        <picture class="product__picture">
-          <img class="product__img" src="multimedia/imagenes/imagen_tres.jpg" alt="salsa" />
-        </picture>
-        <p class="product__description ">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est,
-          consequuntur?
-        </p>
-      </article>
+      <a class="product__link" href="paginas/recetas.html">
+        <article class="product__card">
+          <h2 class="product__title">Salsas</h2>
+          <picture class="product__picture">
+            <img class="product__img" src="multimedia/imagenes/imagen_tres.jpg" alt="salsa" />
+          </picture>
+          <p class="product__description ">
+            Salas y aderezos para aplicar a sus comidas
+          </p>
+        </article>
+      </a>
       <!--Card alternative two-->
-      <article class="product__card">
-        <h2 class="product__title">producto chico dos</h2>
-        <picture class="product__picture">
-          <img class="product__img" src="multimedia/imagenes/imagen_cuatro.jpg" alt="aderezo" />
-        </picture>
-        <p class="product__description ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-      </article>
+      <a class="product__link" href="paginas/recetas.html">
+        <article class="product__card">
+          <h2 class="product__title">Aderezo de mayonesa</h2>
+          <picture class="product__picture">
+            <img class="product__img" src="multimedia/imagenes/imagen_cuatro.jpg" alt="aderezo" />
+          </picture>
+          <p class="product__description ">Aderezo de mayonesa ideal para acompañar</p>
+        </article>
+      </a>
     </section>
     </div>
   </main>
@@ -173,53 +179,29 @@
       <div class="row">
         <!--Grid column-->
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-          <h3 class="footer__title">texto del footer</h3>
+          <h3 class="footer__title">Un poco sobre el sitio</h3>
           <p class="footer__text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
-            atque ea quis molestias. Fugiat pariatur maxime quis culpa
-            corporis vitae repudiandae aliquam voluptatem veniam, est atque
-            cumque eum delectus sint!
+            Pagina de recetas y productos de cocina y panadaderia, ideal para personas interesadas en la gastronomia.
           </p>
         </div>
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 col-sm-6">
-          <h3 class="footer__title">Titulo 1</h3>
+        <div class=" col-lg-3 col-md-6 mb-4 mb-md-0 col-sm-6 offset-lg-3">
+          <h3 class="footer__title">Paginas</h3>
 
           <ul class="list-unstyled footer__list">
             <li class="footer__list-element ">
-              <a class="footer__link" href="#!">Link 1</a>
+              <a class="footer__link" href="paginas/productos.html">Productos</a>
             </li>
             <li class="footer__list-element ">
-              <a class="footer__link" href="#!">Link 2</a>
+              <a class="footer__link" href="paginas/recetas.html">Recetas</a>
             </li>
             <li class="footer__list-element ">
-              <a class="footer__link" href="#!">Link 3</a>
+              <a class="footer__link" href="paginas/cocina.html">Cocina</a>
             </li>
             <li class="footer__list-element ">
-              <a class="footer__link" href="#!">Link 4</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 col-sm-6">
-          <h3 class="footer__title">Titulo 2</h3>
-
-          <ul class="list-unstyled footer__list ">
-            <li class="footer__list-element ">
-              <a class="footer__link" href="#!">Link 1</a>
-            </li>
-            <li class="footer__list-element ">
-              <a class="footer__link" href="#!">Link 2</a>
-            </li>
-            <li class="footer__list-element ">
-              <a class="footer__link" href="#!">Link 3</a>
-            </li>
-            <li class="footer__list-element ">
-              <a class="footer__link" href="#!">Link 4</a>
+              <a class="footer__link" href="paginas/ayuda.html">Ayuda</a>
             </li>
           </ul>
         </div>

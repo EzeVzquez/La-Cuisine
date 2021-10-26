@@ -1,0 +1,22 @@
+@import "colors";
+
+.banner-wrapper {
+  width: 100%;
+  height: calc(100vh - 89.41px);
+  min-height: 500px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-wrapper--index {
+  background-image: url("../multimedia/imagenes/banner_dos.jpg");
+}
+
+.banner-wrapper--articles {
+  background-image: url("../multimedia/imagenes/banner_productos.jpg");
+}
+
+.banner-wrapper--recipes {
+  background-image: url("../multimedia/imagenes/banner_recetas.jpg");
+}

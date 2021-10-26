@@ -16,6 +16,20 @@ body {
   font-size: 1.6rem;
 }
 
+h1 {
+  display: none;
+}
+
+p {
+  color: $color-philippine-gray;
+}
+
 @import "header";
+@import "banner";
+@import "index";
+@import "productos";
+@import "recetas";
+@import "cocina";
+@import "ayuda";
 @import "footer";
 @import "breakpoints";

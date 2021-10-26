@@ -1,0 +1,23 @@
+@import "colors";
+
+.recipes {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+}
+
+.recipes__article {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.recipes__title {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.recipes__img {
+  width: 100%;
+  max-width: 1000px;
+  padding: 10px;
+}

@@ -1,0 +1,44 @@
+@import "colors";
+
+.main-product {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 30px auto;
+  font-size: 0.9em;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.product__link{
+  text-decoration: none;
+   .product__title{
+     color:$color-black;
+   }
+}
+
+.product__card {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.product__picture {
+  display: inline-block;
+  margin: 10px;
+}
+
+.product__img {
+  object-fit: cover;
+  width: 100%;
+  min-height: 350px;
+}
