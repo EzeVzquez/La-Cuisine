@@ -364,4 +364,6 @@ footer {
   .article__img {
     max-width: 280px; }
   .recipes {
-    width: 80%; } }
+    width: 80%; }
+  .about-us__wrapper {
+    width: 100%; } }
