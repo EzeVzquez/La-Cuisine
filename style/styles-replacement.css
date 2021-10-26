@@ -211,6 +211,9 @@ p {
 .form__button {
   margin: 5px; }
 
+.about-us__wrapper {
+  padding: 1em; }
+
 footer {
   background-color: #e63946;
   margin-top: auto; }
