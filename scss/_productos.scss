@@ -8,11 +8,19 @@
   max-width: 350px;
 }
 
+.article__link{
+  text-decoration: none;
+}
+
 .article__wrapper {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   border-radius: 4px;
   margin: 10px;
   padding: 5px;
+}
+
+.article__title{
+  color:$color-black;
 }
 
 .article__img {

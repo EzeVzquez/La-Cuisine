@@ -29,7 +29,7 @@
 </head>
 
 <body>
-  <!--En el header ademas va a ir un buscador, el logo y las redes sociales-->
+  <!--En el header ademas va a ir un ¿Qué estás buscando?, el logo y las redes sociales-->
   <header>
     <!--Barra de navegacion-->
     <nav class="navbar navbar-expand-lg navbar-light nav-container">
@@ -72,7 +72,7 @@
           </ul>
           <!-- search -->
           <form class="d-flex search">
-            <input class="form-control me-2 search__input" type="search" placeholder="buscador" aria-label="Search">
+            <input class="form-control me-2 search__input" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
             <button class="btn btn-outline-success search__button" type="submit">Buscar</button>
           </form>
         </div>
@@ -123,19 +123,10 @@
           </div>
         </div>
       </div>
-      <!-- <video
-                class="mainImg"
-                src="multimedia/videos/video_test_uno.mp4"
-                control
-                autoplay
-                loop
-                muted
-                ></video> -->
       <p class="main-product__description">
-        Ensaladas-Picada-Platos livianos
+        Carnes | Tortas | Pastas
       </p>
     </div>
-    <!--Aca van a empezar los otros productos o comidas siempre teniendo uno mas grande y al lado uno mas chico-->
     <!--Card one-->
     <section class="product">
       <a class="product__link" href="paginas/recetas.html">
@@ -184,6 +175,55 @@
         </article>
       </a>
     </section>
+
+    <section class="product">
+      <a class="product__link" href="paginas/recetas.html">
+        <article class="product__card">
+          <h2 class="product__title">Torta de chocolate</h2>
+          <picture class="product__picture">
+            <img class="product__img" src="multimedia/imagenes/pastel.jpg" alt="Pastel" />
+          </picture>
+          <p class="product__description">Torta con baño y relleno de chocolate</p>
+        </article>
+      </a>
+      <!--Card two-->
+      <a class="product__link" href="paginas/recetas.html">
+        <article class="product__card">
+          <h2 class="product__title">Hamburguesa</h2>
+          <picture class="product__picture">
+            <img class="product__img" src="multimedia/imagenes/hamburguesa.jpg" alt="Hamburguesa" />
+          </picture>
+          <p class="product__description">
+            Hamburguesa casera con papas fritas
+          </p>
+        </article>
+      </a>
+    </section>
+    <!--Card alternative one-->
+    <section class="product product--alternative">
+      <a class="product__link" href="paginas/recetas.html">
+        <article class="product__card">
+          <h2 class="product__title">Fideos al huevo</h2>
+          <picture class="product__picture">
+            <img class="product__img" src="multimedia/imagenes/pasta.jpg" alt="Fideos" />
+          </picture>
+          <p class="product__description ">
+            Tagliatelle al huevo
+          </p>
+        </article>
+      </a>
+      <!--Card alternative two-->
+      <a class="product__link" href="paginas/recetas.html">
+        <article class="product__card">
+          <h2 class="product__title">pizza</h2>
+          <picture class="product__picture">
+            <img class="product__img" src="multimedia/imagenes/pizza.jpg" alt="Pizza" />
+          </picture>
+          <p class="product__description ">Pizza de champiñones y aceitunas negras</p>
+        </article>
+      </a>
+    </section>
+
     </div>
   </main>
   <footer>

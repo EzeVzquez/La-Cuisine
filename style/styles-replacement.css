@@ -80,7 +80,7 @@ p {
 
 .banner-wrapper {
   width: 100%;
-  height: calc(100vh - 89.41px);
+  height: calc(100vh - 75.61px);
   min-height: 500px;
   display: block;
   background-repeat: no-repeat;
@@ -138,11 +138,17 @@ p {
   width: 100%;
   max-width: 350px; }
 
+.article__link {
+  text-decoration: none; }
+
 .article__wrapper {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   border-radius: 4px;
   margin: 10px;
   padding: 5px; }
+
+.article__title {
+  color: #000; }
 
 .article__img {
   width: 100%; }
@@ -337,6 +343,8 @@ footer {
     display: flex;
     align-items: flex-start;
     gap: 20px; }
+  .article__title:hover {
+    text-decoration: underline; }
   .article__img {
     width: auto;
     max-width: 250px; }
@@ -385,7 +393,7 @@ footer {
     margin: 0; }
   .product__img {
     width: 100%;
-    max-height: 450px; }
+    max-height: 350px; }
   .article__img {
     max-width: 280px; }
   .recipes {
