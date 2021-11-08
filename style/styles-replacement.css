@@ -124,7 +124,8 @@ p {
 
 .product__picture {
   display: inline-block;
-  margin: 10px; }
+  margin: 10px;
+  padding-bottom: 5px; }
 
 .product__img {
   object-fit: cover;
@@ -184,28 +185,51 @@ p {
 
 .food-recipe {
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
   justify-content: center;
   margin: 24px auto; }
+
+.food-recipe__link {
+  text-decoration: none;
+  color: #000; }
+  .food-recipe__link:hover {
+    color: #000; }
 
 .food-recipe__article {
   margin: auto 10px; }
 
-.food-recipe__picture-wrapper {
+.food-recipe__title {
+  text-align: center; }
+
+.food-recipe__card {
+  position: relative; }
+
+.food-recipe__picture {
   display: flex;
-  gap: 10px; }
+  position: relative;
+  text-align: center;
+  flex-direction: column;
+  width: 100%; }
+  .food-recipe__picture::after {
+    content: "";
+    background-color: #000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: .4; }
 
 .food-recipe__img {
   width: 100%; }
 
-.food-recipe__video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; }
-
 .food-recipe__description {
+  position: absolute;
+  bottom: 0;
+  margin: 2px;
   text-align: center;
-  font-size: 0.8em; }
+  width: 100%;
+  font-size: 0.75em;
+  color: #f1faee; }
 
 .wrapper {
   display: flex;
