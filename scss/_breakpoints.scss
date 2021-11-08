@@ -36,13 +36,14 @@
 
   //Cocina
 
+  .food-recipe{
+    width: 95%;
+  }
+
   .food-recipe__article {
     margin: auto 20px;
   }
 
-  .food-recipe__picture-wrapper {
-    gap: 20px;
-  }
   .food-recipe__description {
     font-size: 1em;
   }
@@ -105,6 +106,10 @@
 
   .product--alternative {
     grid-template-columns: 3fr 2fr;
+  }
+
+  .product__link{
+    transition: 0.4s;
   }
 
   .product__link:hover {
@@ -193,12 +198,23 @@
 
   //Cocina
 
-  .food-recipe__article {
-    margin: auto 40px;
+  .food-recipe{
+    grid-template-columns: 1fr 1fr;
+    width: 85%;
   }
 
-  .food-recipe__picture-wrapper {
-    gap: 30px;
+  .food-recipe__link{
+    margin-top: 5px;
+  }
+
+  .food-recipe__article{
+    margin: 20px;
+    transition: 0.4s;
+
+    &:hover{
+      transform: scale(1.005);
+      transition: 0.4s;
+    }
   }
 
   //Ayuda
