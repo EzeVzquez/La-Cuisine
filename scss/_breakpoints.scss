@@ -36,7 +36,7 @@
 
   //Cocina
 
-  .food-recipe{
+  .food-recipe {
     width: 95%;
   }
 
@@ -50,9 +50,9 @@
 
   //Ayuda
 
-  .form__textarea {
-    width: 98%;
-  }
+  // .form__textarea {
+  //   width: 98%;
+  // }
 }
 
 @media screen and (min-width: 1024px) {
@@ -108,7 +108,7 @@
     grid-template-columns: 3fr 2fr;
   }
 
-  .product__link{
+  .product__link {
     transition: 0.4s;
   }
 
@@ -174,22 +174,22 @@
 
   .recipes__link:hover {
     color: $color-powder-blue;
-    transition: .2s;
+    transition: 0.2s;
   }
 
-  .recipes__picture{
-   display: inline-block;
-   overflow: hidden;
+  .recipes__picture {
+    display: inline-block;
+    overflow: hidden;
   }
 
-  .recipes__img{
+  .recipes__img {
     width: 100%;
-    transition: all .1s;
+    transition: all 0.1s;
   }
 
-  .recipes__img:hover{
-  transform:scale(1.2);
-  cursor: pointer;
+  .recipes__img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
   }
 
   .recipes__title {
@@ -198,20 +198,20 @@
 
   //Cocina
 
-  .food-recipe{
+  .food-recipe {
     grid-template-columns: 1fr 1fr;
     width: 85%;
   }
 
-  .food-recipe__link{
+  .food-recipe__link {
     margin-top: 5px;
   }
 
-  .food-recipe__article{
+  .food-recipe__article {
     margin: 20px;
     transition: 0.4s;
 
-    &:hover{
+    &:hover {
       transform: scale(1.005);
       transition: 0.4s;
     }
@@ -220,42 +220,21 @@
   //Ayuda
 
   .wrapper {
-    flex-direction: row;
-    justify-content: center;
-    margin: 20px;
+    margin-bottom: 100px;
   }
 
-  .form__wrapper {
-    width: 100%;
+  .about-us__title {
+    text-align: center;
   }
 
-  .form__fieldset {
-    width: 100%;
-    padding: 0;
+  .form__title {
+    text-align: center;
   }
 
-  .form__container {
-    width: 100%;
+  .form__button {
+    margin: 10px;
+    transform: scale(1.2);
   }
-
-  .form__label {
-    display: inline;
-    justify-content: center;
-  }
-
-  .form__textarea {
-    width: auto;
-    margin-left: 5px;
-  }
-
-  .form__news {
-    display: block;
-  }
-
-  .about-us__wrapper {
-    width: 85%;
-  }
-
   //Footer
 
   .footer__list-element .footer__link,
@@ -290,6 +269,14 @@
   }
 
   //Ayuda
+
+  .wrapper {
+    margin-bottom: 185px;
+  }
+
+  .about-us__wrapper {
+    margin: auto 250px;
+  }
 
   .form__container {
     width: 90%;

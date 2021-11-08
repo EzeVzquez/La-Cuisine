@@ -241,11 +241,17 @@ p {
   margin: 10px;
   gap: 10px; }
 
+.about-us__wrapper {
+  padding: 1em; }
+
 .form__wrapper {
   width: 100%; }
 
 .form__fieldset {
   padding: 10px; }
+
+.form__container {
+  margin: 0 auto; }
 
 .form__label {
   display: flex;
@@ -253,14 +259,17 @@ p {
   padding: 5px; }
 
 .form__input {
-  padding: 2px; }
+  padding: 5px;
+  border-color: #929292; }
 
 .form__select-option {
-  margin: 5px; }
+  margin: 5px;
+  border-color: #929292; }
 
 .form__textarea {
-  margin: 0 auto;
-  width: 95%;
+  border-color: #929292;
+  margin-top: 5px;
+  width: 100%;
   display: flex;
   flex-direction: column; }
 
@@ -276,12 +285,9 @@ p {
       color: #f1faee;
       background-color: #71c3c6;
       box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.6);
-      transition: .2s ease-in-out; }
+      transition: 0.2s ease-in-out; }
   .form__button--reset:hover {
     border: 1px solid #000; }
-
-.about-us__wrapper {
-  padding: 1em; }
 
 footer {
   background-color: #e63946;
@@ -320,9 +326,7 @@ footer {
   .food-recipe__article {
     margin: auto 20px; }
   .food-recipe__description {
-    font-size: 1em; }
-  .form__textarea {
-    width: 98%; } }
+    font-size: 1em; } }
 
 @media screen and (min-width: 1024px) {
   .nav__dropdown-item:hover {
@@ -395,13 +399,13 @@ footer {
     grid-template-columns: 1fr 1fr 1fr; }
   .recipes__link:hover {
     color: #a8dadc;
-    transition: .2s; }
+    transition: 0.2s; }
   .recipes__picture {
     display: inline-block;
     overflow: hidden; }
   .recipes__img {
     width: 100%;
-    transition: all .1s; }
+    transition: all 0.1s; }
   .recipes__img:hover {
     transform: scale(1.2);
     cursor: pointer; }
@@ -419,26 +423,14 @@ footer {
       transform: scale(1.005);
       transition: 0.4s; }
   .wrapper {
-    flex-direction: row;
-    justify-content: center;
-    margin: 20px; }
-  .form__wrapper {
-    width: 100%; }
-  .form__fieldset {
-    width: 100%;
-    padding: 0; }
-  .form__container {
-    width: 100%; }
-  .form__label {
-    display: inline;
-    justify-content: center; }
-  .form__textarea {
-    width: auto;
-    margin-left: 5px; }
-  .form__news {
-    display: block; }
-  .about-us__wrapper {
-    width: 85%; }
+    margin-bottom: 100px; }
+  .about-us__title {
+    text-align: center; }
+  .form__title {
+    text-align: center; }
+  .form__button {
+    margin: 10px;
+    transform: scale(1.2); }
   .footer__list-element .footer__link,
   .footer__copyright {
     transition: 0.3s all; }
@@ -454,5 +446,9 @@ footer {
     max-width: 280px; }
   .recipes {
     width: 80%; }
+  .wrapper {
+    margin-bottom: 185px; }
+  .about-us__wrapper {
+    margin: auto 250px; }
   .form__container {
     width: 90%; } }
