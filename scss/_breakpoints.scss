@@ -2,6 +2,15 @@
 
 @media screen and (min-width: 768px) {
   //Header
+
+  .nav-container .nav__item .nav__item-link {
+    font-size: 2rem;
+  }
+
+  .nav__dropdown-item{
+    font-size: 2rem;
+  }
+
   .search {
     max-width: 768px;
   }
