@@ -14,6 +14,9 @@
   }
 
   .product {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
     width: 93%;
     font-size: 0.95em;
   }
@@ -21,12 +24,7 @@
   //Productos
 
   .article {
-    max-width: 700px;
-  }
-
-  .article__wrapper {
-    margin-bottom: 30px;
-    padding: 10px;
+    grid-template-columns: 1fr 1fr;
   }
 
   //Recetas
@@ -47,12 +45,6 @@
   .food-recipe__description {
     font-size: 1em;
   }
-
-  //Ayuda
-
-  // .form__textarea {
-  //   width: 98%;
-  // }
 }
 
 @media screen and (min-width: 1024px) {
@@ -90,22 +82,37 @@
     font-size: 1em;
   }
 
-  .product__title {
-    padding-top: 1em;
+  .main-product__title {
+    font-size: 3rem;
+  }
+
+  .main-product__description {
+    font-size: 2rem;
   }
 
   .product {
     display: grid;
     grid-template-columns: 2fr 3fr;
-    gap: 10px;
+    gap: 15px;
     text-align: center;
     width: 90%;
     margin: 0 auto;
     font-size: 0.8em;
   }
 
+  .product {
+    .product__title {
+      font-size: 2.5rem;
+    }
+  }
+
+  .product__description {
+    font-size: 1.8rem;
+  }
+
   .product--alternative {
     grid-template-columns: 3fr 2fr;
+    margin-bottom: 2em;
   }
 
   .product__link {
@@ -130,40 +137,15 @@
   //Productos
 
   .article {
-    width: 90%;
-    max-width: none;
-  }
-
-  .article__wrapper {
-    margin-bottom: 20px;
-    padding: 15px;
-  }
-
-  .article__wrapper:hover {
-    transform: scale(1.01);
-    transition: 0.2s;
-  }
-
-  .article__product {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
+    margin: 35px;
   }
 
-  .article__title:hover {
-    text-decoration: underline;
-  }
-
-  .article__img {
-    width: auto;
-    max-width: 250px;
-  }
-
-  .article__description {
-    font-size: 1.8rem;
-    display: unset;
+  .article__button:hover {
+    background-color: $color-powder-blue;
+    color: $color-black;
+    transition: 0.5s;
   }
 
   //Recetas
@@ -251,16 +233,30 @@
 @media screen and (min-width: 1440px) {
   //Index
 
+  .main-product__title {
+    font-size: 3.5rem;
+  }
+
+  .main-product__description {
+    font-size: 2rem;
+  }
+
+  .product {
+    .product__title {
+      font-size: 2.5rem;
+    }
+  }
+
+  .product__description {
+    font-size: 1.8rem;
+  }
+
   .product__picture {
     width: 95%;
     margin: 0;
   }
 
   //Productos
-
-  .article__img {
-    max-width: 280px;
-  }
 
   //Recetas
 
