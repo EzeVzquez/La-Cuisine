@@ -152,6 +152,12 @@ p {
   padding: auto;
   text-align: center; }
 
+.article__link {
+  text-decoration: none; }
+
+.article__title {
+  color: #000; }
+
 .article__img-wrapper {
   width: 100%;
   max-width: 100px; }

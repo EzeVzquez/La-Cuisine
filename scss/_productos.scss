@@ -42,6 +42,15 @@
     text-align: center;
   }
 
+  .article__link{
+    text-decoration: none;
+
+  }
+
+  .article__title{
+    color: $color-black;
+  }
+
   .article__img-wrapper{
     width: 100%;
     max-width: 100px;
