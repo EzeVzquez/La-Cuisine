@@ -340,6 +340,29 @@ footer {
 .footer__copyright:link {
   color: #000; }
 
+.error-404__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10em;
+  margin: 1em; }
+
+.error-404__title {
+  font-size: 3em;
+  font-weight: bolder; }
+
+.error-404__button {
+  margin: 0;
+  border: none;
+  padding: 5px;
+  background-color: #000;
+  color: #f2f2f2;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  max-width: 300px; }
+
 @media screen and (min-width: 768px) {
   .nav-container .nav__item .nav__item-link {
     font-size: 2rem; }
@@ -366,6 +389,12 @@ footer {
     margin: auto 20px; }
   .food-recipe__description {
     font-size: 1em; } }
+
+.error-404__title {
+  font-size: 4em; }
+
+.error-404__description {
+  font-size: 1.5em; }
 
 @media screen and (min-width: 1024px) {
   .nav__dropdown-item:hover {
@@ -468,6 +497,13 @@ footer {
   .footer__list-element .footer__link:hover,
   .footer__copyright:hover {
     color: #000; } }
+
+.error-404__title {
+  font-size: 5em; }
+
+.error-404__button:hover {
+  box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.6);
+  transition: .3s; }
 
 @media screen and (min-width: 1440px) {
   .main-product__title {
