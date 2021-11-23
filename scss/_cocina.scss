@@ -6,14 +6,13 @@
   grid-template-columns: 1fr;
   justify-content: center;
   margin: 15px auto;
-  
 }
 
-.food-recipe__link{
+.food-recipe__link {
   margin-top: 20px;
   text-decoration: none;
   color: $color-black;
-  &:hover{
+  &:hover {
     color: $color-black;
   }
 }
@@ -25,36 +24,34 @@
   padding: 5px;
 }
 
-.food-recipe__title{
+.food-recipe__title {
   text-align: center;
 }
 
-.food-recipe__card{
+.food-recipe__card {
   position: relative;
 }
 
-.food-recipe__picture{
+.food-recipe__picture {
   display: flex;
   position: relative;
   text-align: center;
   flex-direction: column;
   width: 100%;
 
-  &::after{
+  &::after {
     content: "";
     background-color: $color-black;
-    position:absolute;
+    position: absolute;
     width: 100%;
     height: 100%;
-    opacity: .4;
+    opacity: 0.4;
   }
-  
 }
 
-.food-recipe__img{
+.food-recipe__img {
   width: 100%;
 }
-
 
 .food-recipe__description {
   position: absolute;

@@ -7,7 +7,7 @@
     font-size: 2rem;
   }
 
-  .nav__dropdown-item{
+  .nav__dropdown-item {
     font-size: 2rem;
   }
 
@@ -58,11 +58,11 @@
 
 //error 404
 
-.error-404__title{
+.error-404__title {
   font-size: 4em;
 }
 
-.error-404__description{
+.error-404__description {
   font-size: 1.5em;
 }
 
@@ -157,7 +157,7 @@
 
   .article {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 1.5rem;
     margin: 35px;
   }
 
@@ -251,13 +251,13 @@
 
 //error 404
 
-.error-404__title{
+.error-404__title {
   font-size: 5em;
 }
 
-.error-404__button:hover{
+.error-404__button:hover {
   box-shadow: 2px 1px 5px rgba($color: $color-black, $alpha: 0.6);
-  transition: .3s;
+  transition: 0.3s;
 }
 
 @media screen and (min-width: 1440px) {
@@ -285,8 +285,6 @@
     width: 95%;
     margin: 0;
   }
-
-  //Productos
 
   //Recetas
 
