@@ -161,6 +161,10 @@
     margin: 35px;
   }
 
+  .article__card{
+    max-width: none;
+  }
+
   .article__button:hover {
     background-color: $color-powder-blue;
     color: $color-black;
