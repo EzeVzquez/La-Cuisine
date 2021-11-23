@@ -101,6 +101,12 @@ p {
 .banner-wrapper--recipes {
   background-image: url("../multimedia/imagenes/banner_recetas.jpg"); }
 
+.banner-wrapper--index, .banner-wrapper--articles, .banner-wrapper--recipes {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .main-product {
   display: flex;
   flex-direction: column;
